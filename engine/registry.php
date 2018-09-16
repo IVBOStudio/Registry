@@ -3,4 +3,8 @@
 
 class registry
 {
+function reg()
+{
+    
+}
 }
