@@ -37,4 +37,11 @@ class registry
     {
 
     }
+
+    function nik22233334444555()
+    {
+
+    }
+
+
 }
