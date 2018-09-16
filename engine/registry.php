@@ -13,6 +13,11 @@ class registry
 
     }
 
+    function sOSI()
+    {
+
+    }
+
     function AndreyHello()
     {
 
