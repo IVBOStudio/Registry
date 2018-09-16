@@ -3,4 +3,7 @@
 
 class registry
 {
+function lock(){
+    
+}
 }
