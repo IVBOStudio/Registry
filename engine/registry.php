@@ -22,13 +22,19 @@ class registry
     {
 
     }
+
     function GGGG()
+    {
+
+    }
+
+    function nik222()
     {
 
     }
 
     function nik()
     {
-    
+
     }
 }
