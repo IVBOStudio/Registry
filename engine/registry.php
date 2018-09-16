@@ -26,4 +26,9 @@ class registry
     {
 
     }
+
+    function nik()
+    {
+    
+    }
 }
