@@ -6,4 +6,8 @@ class registry
 function lock(){
     
 }
+function reg()
+{
+
+}
 }
