@@ -22,4 +22,8 @@ class registry
     {
 
     }
+    function GGGG()
+    {
+
+    }
 }
