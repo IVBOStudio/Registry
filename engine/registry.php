@@ -4,9 +4,11 @@ include "autoLoaderClass.php";
 class registry
 {
 
-    function some()
-    {
-
-    }
-
 }
+
+$connectDb = new connect_DB();
+
+$connectDb->connect();
+
+$connectDb->chooseDB("site");
+
