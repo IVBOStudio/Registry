@@ -7,6 +7,6 @@ class config
 
     public $__DB_login__ = "root";
 
-    public $__DB_IP = "127.0.0.1";
+    public $__DB_HOST__ = "127.0.0.1";
 
 }
