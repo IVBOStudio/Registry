@@ -12,3 +12,9 @@ $connectDb->connect();
 
 $connectDb->chooseDB("site");
 
+$connectDb->query("SELECT * FROM ?n ", "users");
+
+$array = $connectDb->GetAssocArrayAll();
+
+print_r($array);
+

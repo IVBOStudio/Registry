@@ -1,6 +1,15 @@
 <?php
 include_once "autoLoaderClass.php";
 
+/*
+ * Плейсхолдеры
+ * ?i - число
+ * ?s - строка
+ * ?p - готовый SQL
+ * ?u - array для SET
+ * ?a - array для IN
+ */
+
 class connect_DB
 {
     private $_config;
@@ -8,6 +17,7 @@ class connect_DB
     private $_db_pass;
     private $_db_host;
     private $_connect;
+    private $_last_query;
 
     public function __construct()
     {
@@ -37,6 +47,150 @@ class connect_DB
         if ($this->_connect->errno) {
             throw new Exception("Не удалось выбрать базу данных.");
         }
+    }
+
+    private function prepareQuery($args)
+    {
+        $query = '';
+        //Удаляем первый параметр функции query()
+        $raw = array_shift($args);
+        //Ищем наши плейсхолдеры
+        $array = preg_split('~(\?[nsiuap])~u', $raw, null, PREG_SPLIT_DELIM_CAPTURE);
+        // количество плейсхолдеров полученных
+        $anum = count($args);
+        // количество плейсхолдеров в query запросе
+        $pnum = floor(count($array) / 2);
+        if ($pnum != $anum) {
+            throw new Exception("Оишбка передачи параметров.");
+        }
+        foreach ($array as $i => $part) {
+            if (($i % 2) == 0) {
+                $query .= $part;
+                continue;
+            }
+            $value = array_shift($args);
+            switch ($part) {
+                case '?n':
+                    $part = $this->escapeIdent($value);
+                    break;
+                case '?s':
+                    $part = $this->escapeString($value);
+                    break;
+                case '?i':
+                    $part = $this->escapeInt($value);
+                    break;
+                case '?a':
+                    $part = $this->createIN($value);
+                    break;
+                case '?u':
+                    $part = $this->createSET($value);
+                    break;
+                case '?p':
+                    $part = $value;
+                    break;
+            }
+            $query .= $part;
+        }
+        $this->_last_query = $query;
+        return $query;
+    }
+
+    private function escapeInt($value)
+    {
+        if ($value === NULL) {
+            return 'NULL';
+        }
+        if (!is_numeric($value)) {
+            throw new Exception("Неправильно передан числовой параметр.");
+        }
+        if (is_float($value)) {
+            $value = number_format($value, 0, '.', '');
+        }
+        return $value;
+    }
+
+    private function escapeString($value)
+    {
+        if ($value === NULL) {
+            return 'NULL';
+        }
+        return "'" . mysqli_real_escape_string($this->_connect, $value) . "'";
+    }
+
+    private function escapeIdent($value)
+    {
+        if ($value) {
+            return "`" . str_replace("`", "``", $value) . "`";
+        } else {
+            throw new Exception("Не указан именной параметр.");
+        }
+    }
+
+    private function createIN($data)
+    {
+        if (!is_array($data)) {
+            throw new Exception("Значения для IN (?a) - должен быть array ");
+        }
+        if (!$data) {
+            return 'NULL';
+        }
+        $query = $comma = '';
+        foreach ($data as $value) {
+            $query .= $comma . $this->escapeString($value);
+            $comma = ",";
+        }
+        return $query;
+    }
+
+    private function createSET($data)
+    {
+        if (!is_array($data)) {
+            throw new Exception("SET (?u) должен быть array.");
+        }
+        if (!$data) {
+            throw new Exception("Пустой массив (?u) для SET");
+        }
+        $query = $comma = '';
+        foreach ($data as $key => $value) {
+            $query .= $comma . $this->escapeIdent($key) . '=' . $this->escapeString($value);
+            $comma = ",";
+        }
+        return $query;
+    }
+
+    private function rawQuery($query)
+    {
+        //SQL запрос к базе данных
+        $res = mysqli_query($this->_connect, $query);
+
+        if ($this->_connect->errno) {
+            throw new Exception("Ошибка запроса к базе данных.");
+        } else {
+            return $res;
+        }
+    }
+
+    public function query()
+    {
+        return $this->rawQuery($this->prepareQuery(func_get_args()));
+    }
+
+    public function GetAssocArrayAll()
+    {
+        $ret = array();
+        $query = $this->_last_query;
+        if ($res = $this->rawQuery($query)) {
+            while ($row = mysqli_fetch_assoc($res)) {
+                $ret[] = $row;
+            }
+            $this->free($res);
+        }
+        return $ret;
+    }
+
+    public function free($result)
+    {
+        mysqli_free_result($result);
     }
 
     public function close()
