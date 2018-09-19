@@ -188,6 +188,35 @@ class connect_DB
         return $ret;
     }
 
+    public function getDataBasesList()
+    {
+        $arr = Array();
+        $query = "show databases;";
+        if ($res = $this->rawQuery($query)) {
+            while ($row = $res->fetch_array(MYSQLI_NUM)) {
+                $arr[] = $row[0];
+            }
+            $arr = array_diff($arr, array("information_schema", "mysql", "performance_schema", "sys"));
+            return $arr;
+        } else {
+            throw new Exception("Ошибка получения списка баз данных данных");
+        }
+    }
+
+    public function getTablesList()
+    {
+        $arr = Array();
+        $query = "show tables;";
+        if ($res = $this->rawQuery($query)) {
+            while ($row = $res->fetch_array(MYSQLI_NUM)) {
+                $arr[] = $row[0];
+            }
+            return $arr;
+        } else {
+            throw new Exception("Ошибка получения списка таблиц данных");
+        }
+    }
+
     public function free($result)
     {
         mysqli_free_result($result);
