@@ -8,7 +8,7 @@ class autoLoaderClass
     public function load()
     {
         // Получение всех имен файлов, кроме самого файла и служебных директорий
-        $classes = array_diff(scandir($this->_dirLib), array('..', '.', 'autoLoaderClass.php'));
+        $classes = array_diff(scandir($this->_dirLib), array('..', '.', 'autoLoaderClass.php', "BaseTables.php"));
 
         // Подключение всех модулей
         foreach ($classes as $class) {

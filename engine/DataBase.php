@@ -1,16 +1,17 @@
 <?php
-include_once "autoLoaderClass.php";
+include_once "config.php";
 
 /*
  * Плейсхолдеры
  * ?i - число
  * ?s - строка
  * ?p - готовый SQL
- * ?u - array для SET
- * ?a - array для IN
+ * ?u - array для SET ~ INSERT INTO
+ * ?a - array для IN ~ UPDATE
+ * ?r - rename table (name1 - > name2)
  */
 
-class connect_DB
+class DataBase
 {
     private $_config;
     private $_db_login;
@@ -158,7 +159,7 @@ class connect_DB
         return $query;
     }
 
-    private function rawQuery($query)
+    public function rawQuery($query)
     {
         //SQL запрос к базе данных
         $res = mysqli_query($this->_connect, $query);
@@ -199,7 +200,7 @@ class connect_DB
             $arr = array_diff($arr, array("information_schema", "mysql", "performance_schema", "sys"));
             return $arr;
         } else {
-            throw new Exception("Ошибка получения списка баз данных данных");
+            throw new Exception("Ошибка получения списка баз данных данных.");
         }
     }
 
@@ -213,8 +214,20 @@ class connect_DB
             }
             return $arr;
         } else {
-            throw new Exception("Ошибка получения списка таблиц данных");
+            throw new Exception("Ошибка получения списка таблиц данных.");
         }
+    }
+
+    public function renameTable($value)
+    {
+        $query = "ALTER TABLE ";
+        if (!is_array($value)) {
+            throw new Exception("Для изменения имени таблицы (?r) передается массив.");
+        }
+        foreach ($value as $name1 => $name2) {
+            $query .= $this->escapeIdent($name1) . " RENAME " . $this->escapeIdent($name2);
+        }
+        $this->rawQuery($query);
     }
 
     public function free($result)
