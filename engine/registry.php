@@ -19,9 +19,12 @@ $connectDb->connect();
 
 $connectDb->chooseDB("site");
 
-//$connectDb->query("INSERT INTO ?n SET ?u ON ON DUPLICATE KEY UPDATE ?u ","users",array("id" => null,"login" => "Pro808","password" => "123","hash" => ""),array("hash" => "DUP"));
+$msg = $_POST["msg"];
 
-//print_r($connectDb->getDataBasesList());
+$msgAjax = array();
+$msgAjax["msg"] = "Пидр : " . $msg;
+
+echo json_encode($msgAjax);
 
 
 
