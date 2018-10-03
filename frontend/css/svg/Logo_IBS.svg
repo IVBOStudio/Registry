@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 435 277.478">
+    <defs>
+        <style>
+            .cls-1, .cls-3 {
+            fill: #334a97;
+            }
+
+            .cls-2 {
+            fill: #e31921;
+            }
+
+            .cls-3 {
+            font-size: 37px;
+            font-family: SegoeUI-Semibold, Segoe UI;
+            font-weight: 600;
+            letter-spacing: 0.01em;
+            }
+
+            .cls-4 {
+            letter-spacing: -0.01em;
+            }
+
+            .cls-5 {
+            letter-spacing: 0.01em;
+            }
+        </style>
+    </defs>
+    <g id="Logo_IBS" transform="translate(481.339 105.479)">
+        <g id="Слой_1" data-name="Слой 1" transform="translate(-500.339 -105.479)">
+            <g id="Logo_IBS-2" data-name="Logo_IBS" transform="translate(0 0)">
+                <path id="Path_1" data-name="Path 1" class="cls-1" d="M291.8,195.676,202.99,223.4V43.46L291.8,15.74Z"
+                      transform="translate(-142.528 -7.595)"/>
+                <path id="Path_2" data-name="Path 2" class="cls-1"
+                      d="M520.9,93.479C548.93,73.4,547.063,39.473,547.063,39.473,547.063-9.293,520.9.878,520.9.878L422.09,34.144V217.727l103.9-34.875c21.072-6.783,20.829-50.375,20.829-50.375C547.792,85.248,520.9,93.479,520.9,93.479ZM461.487,161.7V139.421c32.593-16.473,37.136-.973,37.136-.973C505.405,160.41,461.487,161.7,461.487,161.7Zm0-85.643V53.8c32.593-16.473,37.136-.967,37.136-.967,6.783,21.931-37.136,23.214-37.136,23.214Z"
+                      transform="translate(-248.275 0.003)"/>
+                <path id="Path_3" data-name="Path 3" class="cls-2"
+                      d="M820.3.39l-.16,59.9L787.027,72.085l30.007,44.565s7.91,19.453-2.261,45.61c-10.456,26.9-121.1,55.466-121.1,55.466l-.321-55.874L727.417,147l-29.593-45.77s-13.4-21.636,1.94-48.926S820.3.39,820.3.39Z"
+                      transform="translate(-378.741 -0.186)"/>
+                <text id="Industrial_Burner_Systems" data-name="Industrial Burner Systems" class="cls-3"
+                      transform="translate(19 268.478)">
+                    <tspan x="0" y="0">Industrial Burner</tspan>
+                    <tspan class="cls-4" y="0">S</tspan>
+                    <tspan y="0">yst</tspan>
+                    <tspan class="cls-5" y="0">ems</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

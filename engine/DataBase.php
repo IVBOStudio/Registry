@@ -38,6 +38,7 @@ class DataBase
         if ($this->_connect->errno) {
             throw new Exception("Не удалось подключиться к базе.");
         }
+        mysqli_q
     }
 
     // Выбор базы данных

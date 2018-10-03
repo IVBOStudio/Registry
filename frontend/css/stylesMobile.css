@@ -1,0 +1,62 @@
+a:first-child {
+    display: none;
+}
+
+body {
+    background-color: #6BBFDF;
+}
+
+#beliy {
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    height: 136px;
+}
+
+.logo {
+    display: inline-block;
+    height: 90px;
+    width: 132px;
+    margin: 23px 0 0 23px;
+    background: url(svg/Logo_IBS.svg) no-repeat;
+}
+
+#font-bot {
+    margin: 43px 0 0 21px;
+}
+
+.font {
+    font-size: 29pt;
+    color: white;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.16);
+}
+
+.font1 {
+    color: white;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 1px 1px 16px rgba(0, 0, 0, 0.16);
+    margin-top: 28px;
+}
+
+#font-top {
+    margin: 66px 20px 0 0;
+    float: right;
+}
+
+.font2 {
+    margin: 0 0 5px 0;
+    font-size: 12pt;
+    font-weight: lighter;
+    float: left;
+    font-family: 'Roboto Slab', serif;
+}
+
+.font3 {
+    float: right;
+    font-size: 12pt;
+    display: inline-block;
+    font-family: 'Roboto', serif;
+}

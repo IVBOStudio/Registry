@@ -24,6 +24,8 @@ $msg = $_POST["msg"];
 $msgAjax = array();
 $msgAjax["msg"] = "Пидр : " . $msg;
 
+$connectDb->query("INSERT INTO `store` VALUES (null," . $msg . ");");
+
 echo json_encode($msgAjax);
 
 
