@@ -38,10 +38,7 @@
                       transform="translate(-378.741 -0.186)"/>
                 <text id="Industrial_Burner_Systems" data-name="Industrial Burner Systems" class="cls-3"
                       transform="translate(19 268.478)">
-                    <tspan x="0" y="0">Industrial Burner</tspan>
-                    <tspan class="cls-4" y="0">S</tspan>
-                    <tspan y="0">yst</tspan>
-                    <tspan class="cls-5" y="0">ems</tspan>
+                    <tspan x="0" y="0">Industrial Burner System</tspan>
                 </text>
             </g>
         </g>
