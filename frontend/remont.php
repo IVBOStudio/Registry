@@ -18,7 +18,7 @@ $mobile = true;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>вы</title>
+    <title>IBS | Industrial Burning System</title>
     <?php
     if (!$debug) {
         if (check_mobile_device()) {
@@ -35,6 +35,16 @@ $mobile = true;
         }
     }
     ?>
+    <meta name="Keywords"
+          content="IBS, Industrial, Burning, System, gorealka, промышленные горелки, промышленное оборудование, поставки">
+    <meta name="Description" content="IBS. Поставка промышленного оборудования по России. +? (495) 611 00 62">
+    <meta property="og:title" content="IBS | Industrial Burning System">
+    <meta property="og:type" content="article"/>
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="#"/>
+    <meta property="og:site_name" content="IBS"/>
+    <meta property="og:description" content="IBS. Поставка промышленного оборудования по России. +? (495) 611 00 62">
+    <meta name="robots" content="nofollow">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 </head>
