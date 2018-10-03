@@ -38,7 +38,6 @@ class DataBase
         if ($this->_connect->errno) {
             throw new Exception("Не удалось подключиться к базе.");
         }
-        mysqli_q
     }
 
     // Выбор базы данных
@@ -163,13 +162,30 @@ class DataBase
     public function rawQuery($query)
     {
         //SQL запрос к базе данных
-        $res = mysqli_query($this->_connect, $query);
+        $res = $this->_connect->query($query);
 
         if ($this->_connect->errno) {
             throw new Exception("Ошибка запроса к базе данных.");
         } else {
             return $res;
         }
+    }
+
+    public function commit()
+    {
+        $this->_connect->autocommit(FALSE);
+        $this->_connect->begin_transaction(MYSQLI_TRANS_START_READ_WRITE);
+
+        foreach (func_get_args() as $query) {
+            $this->_connect->query($query);
+        }
+
+        $this->_connect->commit();
+
+        if ($this->_connect->errno) {
+            throw new Exception("Не удалось закомитить.");
+        }
+
     }
 
     public function query()

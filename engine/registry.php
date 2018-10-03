@@ -9,7 +9,7 @@ class registry
         "lastName" => "",
         "login" => "",
         "email" => "",
-        "password");
+        "password" => "");
 
 }
 
