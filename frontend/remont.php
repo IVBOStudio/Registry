@@ -10,7 +10,7 @@ function check_mobile_device()
     return false;
 }
 
-$debug = true;
+$debug = false;
 $mobile = true;
 ?>
 <!DOCTYPE html>
