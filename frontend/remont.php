@@ -49,6 +49,7 @@ $mobile = true;
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet">
 </head>
 <body>
+<!-- Тестирование Гита Димасом-->
 <div id="background">
     <div id="beliy">
         <div class="logo"></div>
