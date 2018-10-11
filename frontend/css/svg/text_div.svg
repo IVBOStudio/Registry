@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 968 375">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2c4378;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        filter: url(#Rectangle_19);
+      }
+    </style>
+    <filter id="Rectangle_19" x="0" y="0" width="968" height="375" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="text_div" transform="translate(-118 -2760)">
+    <g class="cls-4" transform="matrix(1, 0, 0, 1, 118, 2760)">
+      <rect id="Rectangle_19-2" data-name="Rectangle 19" class="cls-1" width="950" height="357" transform="translate(9 6)"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(158 2800)">
+      <text id="_1969" data-name="1969" class="cls-2" transform="translate(0 38)"><tspan x="0" y="0">1969</tspan></text>
+      <text id="_1990" data-name="1990" class="cls-2" transform="translate(0 132)"><tspan x="0" y="0">1990</tspan></text>
+      <text id="_2005" data-name="2005" class="cls-2" transform="translate(0 240)"><tspan x="0" y="0">2005</tspan></text>
+      <text id="Основание_ИБС_как_обслуживающей_компании_для_промышленных_горелок_разработка_собственных_горелок_ИБС_для_сушки_сжигательных_установок." data-name="Основание ИБС как обслуживающей компании для промышленных горелок,  разработка собственных горелок ИБС для сушки сжигательных установок." class="cls-3" transform="translate(80)"><tspan x="0" y="16">Основание ИБС как обслуживающей компании для </tspan><tspan x="0" y="36" xml:space="preserve">промышленных горелок,  разработка собственных </tspan><tspan x="0" y="56">горелок ИБС для сушки сжигательных установок.</tspan></text>
+      <text id="Покупка_IBS_GmbH_сегодняшними_владельцами_и_управляющими_директорами._Интенсификация_исследований_и_разработок._Расширение_областей_применения_системных_горелок_IBS." data-name="Покупка IBS GmbH сегодняшними владельцами и управляющими директорами. Интенсификация исследований и разработок. Расширение областей применения системных горелок IBS." class="cls-3" transform="translate(80 189)"><tspan x="0" y="16">Покупка IBS GmbH сегодняшними владельцами и </tspan><tspan x="0" y="36">управляющими директорами. Интенсификация </tspan><tspan x="0" y="56">исследований и разработок. Расширение областей </tspan><tspan x="0" y="76">применения системных горелок IBS.</tspan></text>
+      <text id="Название_компании_изменилось_на_IBS_GmbH." data-name="Название компании изменилось на IBS GmbH." class="cls-3" transform="translate(80 113)"><tspan x="0" y="16">Название компании изменилось на IBS GmbH.</tspan></text>
+    </g>
+    <g id="Group_2" data-name="Group 2" transform="translate(668 2800)">
+      <text id="В_наши_дни:" data-name="В наши дни:" class="cls-2" transform="translate(0 21)"><tspan x="0" y="0">В наши дни:</tspan></text>
+      <text id="Более_30_сотрудников" data-name="Более 30 сотрудников" class="cls-3" transform="translate(0 44)"><tspan x="0" y="16">Более 30 сотрудников</tspan></text>
+      <text id="_70_оборота_производится_с_использованием_новых_продуктов" data-name="70% оборота производится с использованием новых продуктов" class="cls-3" transform="translate(0 99)"><tspan x="0" y="16">70% оборота производится с использованием новых </tspan><tspan x="0" y="36">продуктов</tspan></text>
+      <text id="Энергосберегающие_промышленные_горелки_с_низкой_эмиссией_и_системы_горелки_для:_промышленных_предприятий_строительной_промышленности_экологических_технологий_металлургической_промышленности._" data-name="Энергосберегающие промышленные горелки с низкой эмиссией и системы горелки для: промышленных предприятий, строительной промышленности, экологических технологий, металлургической промышленности.
+" class="cls-3" transform="translate(0 175)"><tspan x="0" y="16">Энергосберегающие промышленные горелки с </tspan><tspan x="0" y="36">низкой эмиссией и системы горелки для: </tspan><tspan x="0" y="56">промышленных предприятий, строительной </tspan><tspan x="0" y="76">промышленности, экологических технологий, </tspan><tspan x="0" y="96">металлургической промышленности.</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,352 @@
+body{
+    margin: 0;
+    background-color: #F6F6F6;
+}
+#head{
+    top: 0px;
+    position: absolute;
+    height: 301px;
+    width: 100%;
+    background-color: white;
+}
+#logo{
+    background: url(svg/Logo_IBS.svg) no-repeat;
+    float: left;
+    display: inline-block;
+    height: 150px;
+    width: 256px;
+    margin: 23px 0 0 9.8%;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#logo2{
+    position: relative;
+    display: inline-block;
+    float: right;
+    background: url(svg/Logo_Gorelki.svg) no-repeat;
+    height: 149px;
+    width: 463px;
+    margin: 23px 92px 0 0;
+}
+#logo2nomer{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#license{
+    display: inline-block;
+    float: right;
+    background: url(jpg/License_Trade_IBS.jpg) no-repeat;
+    width: 180px;
+    height: 177px;
+    margin: 19px 9.6% 0 0;
+}
+#noscroll_bar{
+    position: relative;
+    top: 20px;
+    display: inline-block;
+    background-color: #334A97;
+    width: 100%;
+    height: 88px;
+}
+#buttonsnbar{
+    margin-left: 20%;
+}
+.buttonnbarText{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 300;
+     font-size: 15px;
+     color: white;
+     margin-left: 39px;
+     margin-top: 33px;
+    margin-right: 39px;
+ }
+.buttonnbar{
+    display: inline-block;
+    margin: 0 0 0 0;
+    height: 88px;
+}
+.buttonnbar:hover{
+    margin: 0 0 0 0;
+    height: 88px;
+    background-color: #405EC4;
+}
+#div1{
+    position: relative;
+    margin-top: 220px;
+    background: url(jpg/div1back.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 1039px;
+    color: white;
+}
+#scroll_bar{
+    display: inline-block;
+    background-color: #334A97;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 45px;
+}
+#barnumber{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: white;
+    float: right;
+    font-weight: 400;
+    margin: 13px 104px 0 0;
+}
+#logobar{
+    position: absolute;
+    width: 44.18px;
+    height: 23.46px;
+    margin: 11.3px 0 0 148px;
+    background: url(svg/logobar.svg) no-repeat;
+}
+.buttonsbar{
+    display: inline-block;
+    margin-left: 20%;
+}
+.buttonbar{
+    display: inline-block;
+    margin: 0 0 0 0;
+    height: 45px;
+}
+.buttonbar:hover{
+    margin: 0 0 0 0;
+    height: 45px;
+    background-color: #405EC4;
+}
+.buttonbarText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-left: 39px;
+    margin-top: 10.1px;
+    margin-right: 39px;
+}
+.textCon{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 50pt;
+}
+.textReg{
+    margin-top: 52px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+#text1{
+    display: inline-block;
+    position: relative;
+    margin: 235px 27% 0 27%;
+}
+.smash{
+    background-size: cover;
+    width: 100%;
+    position: absolute;
+}
+#smash1{
+    background: url(svg/DIV_SMAHSER_1-2.svg) no-repeat;
+    height: 189px;
+    top: 1159px;
+}
+#smash2{
+    background: url(svg/DIV_SMASHER_2_3.svg) no-repeat;
+    height: 175px;
+    top: 2391px;
+}
+#smash3{
+    background: url(svg/DIV_SMASHER_3_4.svg) no-repeat;
+    height: 487px;
+    top: 3335px;
+}
+#smash4{
+    background: url(svg/DIV_SMASHER_4_5.svg) no-repeat;
+    height: 241px;
+    top: 4762px;
+}
+#smash5{
+    background: url(svg/DIV_SMASHER_5_6.svg) no-repeat;
+    height: 246px;
+    top: 6086px;
+}
+#smash6{
+    background: url(svg/DIV_SMASHER_6_FOOTER.svg) no-repeat;
+    height: 311px;
+    top: 7007px;
+}
+#footer{
+    background-color: #736FF6;
+    height: 101px;
+    top: 7217px;
+}
+#emblem{
+    background: url(svg/emblem.svg) no-repeat;
+    margin: 50px 0 0 916px;
+    width: 88px;
+    height: 27px;
+}
+#div2{
+    position: relative;
+    margin-top: 102px;
+    height: 1111px;
+    background: url(svg/SECOND_DIV_BACGR.svg) no-repeat;
+}
+#Muzik{
+    display: inline-block;
+    margin: 140px 0 0 140px;
+    height: 812px;
+}
+#text2{
+    position: absolute;
+    float: right;
+    display: inline-block;
+    margin: 140px 277px 0 153px;
+}
+#text21{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45pt;
+}
+#text22{
+    font-size: 12pt;
+}
+#div3{
+    background-color: #3B55BC;
+    height: 960px;
+    color: white;
+}
+#div3t1{
+    font-size: 50pt;
+    display: inline-block;
+    margin: 160px 23.3% 0 23.3%;
+}
+#history{
+    display: inline-block;
+    margin: 35px 0 0 140px;
+    height: 400px;
+    width: 950px;
+    background: url(svg/text_div.svg) no-repeat;
+}
+#Zavod{
+    position: absolute;
+    background: url(svg/div3_back.svg) no-repeat;
+    top: 2800px;
+    width: 100%;
+    height: 685px;
+}
+#div4{
+    margin-top: 243px;
+    color: #535353;
+    background: url(svg/Background_vector_DIV_4.svg) no-repeat;
+    height: 1184px;
+}
+#text-div14{
+    display: inline-block;
+    margin: 209px 0 0 231px;
+    height: 664px;
+    width: 627px;
+    background-color: white;
+    box-shadow: 0 0 6px rgba(0,0,0,0.16);
+}
+#text-div24{
+    background-color: white;
+    display: inline-block;
+    float: right;
+    margin: 312px 224px 0 0;
+    width: 627px;
+    height: 561px;
+    box-shadow: 0 0 6px rgba(0,0,0,0.16);
+ }
+#div114{
+    margin: 16px 44px 0 47px;
+    font-weight: 500;
+     font-family: 'Roboto', sans-serif;
+     font-size: 60px;
+ }
+#div214{
+    margin: 16px 44px 0 47px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#div124{
+    margin: 16px 44px 0 47px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+#div224{
+    margin: 16px 44px 0 47px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#div5{
+    width: 100%;
+    height: 1330px;
+    background: url(svg/Background_div5.svg);
+}
+#div51{
+    color: white;
+    display: inline-block;
+    width: 709px;
+    height: 542px;
+    margin: 222px 0 0 192px;
+    background-color: #5993EC;
+    box-shadow: 0 0 6px rgba(0,0,0,0.16);
+    border-radius: 72px;
+}
+#div511{
+    margin: 77px 86px 0 86px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+#div512{
+    margin: 33.5px 86px 0 86px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#div6{
+    color: #5D5D5D;
+    width: 100%;
+}
+#text-div6{
+    text-align: center;
+    margin: 280px 597px 0 597px;
+}
+#text-div61{
+    display: inline-block;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+}
+#text-div62{
+    margin-top: 36px;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+}
+#text-div63{
+     font-size: 32px;
+     font-weight: 300;
+     font-family: 'Open Sans', sans-serif;
+ }
+#napisat{
+    background-color: #EE5F4E;
+    border-radius: 46px;
+    color: white;
+    width: 314px;
+    height: 68px;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 126px 0 0 803px;
+}

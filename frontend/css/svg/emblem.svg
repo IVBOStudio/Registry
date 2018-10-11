@@ -1,0 +1,57 @@
+<svg id="Group_32" data-name="Group 32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 88.415 27.37">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #4d4d4d;
+      }
+
+      .cls-2 {
+        fill: #1a1a1a;
+      }
+
+      .cls-3 {
+        fill: #e6e6e6;
+        font-size: 7px;
+      }
+
+      .cls-3, .cls-8 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        fill: #666;
+      }
+
+      .cls-5 {
+        fill: #c1272d;
+      }
+
+      .cls-6 {
+        fill: #29abe2;
+      }
+
+      .cls-7 {
+        fill: #009245;
+      }
+
+      .cls-8 {
+        fill: #fff;
+        font-size: 10px;
+        opacity: 0.77;
+      }
+    </style>
+  </defs>
+  <g id="iwbo_logo_1" data-name="iwbo logo 1" transform="translate(60.896)">
+    <g id="Слой_1" data-name="Слой 1">
+      <path id="Path_80" data-name="Path 80" class="cls-1" d="M2.454,0H25a2.454,2.454,0,0,1,2.454,2.454V20.085A2.454,2.454,0,0,1,25,22.539H2.454A2.454,2.454,0,0,1,0,20.085V2.454A2.454,2.454,0,0,1,2.454,0Z"/>
+      <path id="Path_81" data-name="Path 81" class="cls-2" d="M1.294,0H22.575a1.294,1.294,0,0,1,1.294,1.294V13.228a1.294,1.294,0,0,1-1.294,1.294H1.294A1.294,1.294,0,0,1,0,13.228V1.294A1.294,1.294,0,0,1,1.294,0Z" transform="translate(1.792 1.867)"/>
+      <text id="iwbo" class="cls-3" transform="translate(3.331 10.351)"><tspan x="0" y="0">iwbo</tspan></text>
+      <path id="Path_78" data-name="Path 78" class="cls-1" d="M26.29,98.885H1.777C.613,98.885.02,98.105.444,97.2l2.049-4.458a2.443,2.443,0,0,1,2.126-1.1H23.45a2.445,2.445,0,0,1,2.126,1.1L27.625,97.2C28.042,98.105,27.456,98.885,26.29,98.885Z" transform="translate(-0.239 -71.515)"/>
+      <path id="Path_79" data-name="Path 79" class="cls-4" d="M32.37,102.716H10.848c-.626,0-.968-.384-.773-.841L11.1,99.459a1.413,1.413,0,0,1,1.252-.659h18.5a1.413,1.413,0,0,1,1.252.659l1.028,2.416C33.338,102.331,32.993,102.716,32.37,102.716Z" transform="translate(-7.82 -77.102)"/>
+      <circle id="Ellipse_16" data-name="Ellipse 16" class="cls-5" cx="0.659" cy="0.659" r="0.659" transform="translate(23.182 17.707)"/>
+      <circle id="Ellipse_17" data-name="Ellipse 17" class="cls-6" cx="0.659" cy="0.659" r="0.659" transform="translate(20.986 17.707)"/>
+      <circle id="Ellipse_18" data-name="Ellipse 18" class="cls-7" cx="0.659" cy="0.659" r="0.659" transform="translate(18.79 17.707)"/>
+    </g>
+  </g>
+  <text id="created_by" data-name="created by" class="cls-8" transform="translate(0 16.37)"><tspan x="0" y="0">created by</tspan></text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920.001 685.001">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #445dc4;
+      }
+
+      .cls-2 {
+        fill: #4b63c4;
+      }
+
+      .cls-3 {
+        fill: #576ec9;
+      }
+    </style>
+  </defs>
+  <g id="div_3_backgr___paint" data-name="div_3 backgr _ paint" transform="translate(0.001 -2800)">
+    <path id="Union_15" data-name="Union 15" class="cls-1" d="M220,681H-5L99.814-3v0h225L429.629,681Z" transform="translate(1148.003 2803)"/>
+    <path id="Union_13" data-name="Union 13" class="cls-2" d="M-5,679V377H321V346h18.939L358.7-3v0h23.6l18.765,349h18.866L438.7-3v0h23.6l18.765,349h18.866L518.7-3v0h23.6l18.766,349H583V679Z" transform="translate(1337 2806)"/>
+    <path id="Union_16" data-name="Union 16" class="cls-2" d="M-5,347V-3H89V46H272v65H501v30H618V109h506V345H618V176H501V347Z" transform="translate(4.999 3138)"/>
+    <path id="Union_1" data-name="Union 1" class="cls-3" d="M-5,135.274v-118L94.358-3V17.144L193.087-3V17.144L291.815-3V17.144L390.543-3V17.144L489.271-3V17.145L588-3V135.274Z" transform="translate(258 3349.727)"/>
+    <path id="Union_6" data-name="Union 6" class="cls-3" d="M572,495H-5V296H204.349L222.476-3h30.133V1.224L252.866-3l18.128,299h22.355L311.477-3h30.133V1.224L341.865-3l18.128,299h17.357L395.476-3h30.133V1.224L425.866-3l18.128,299H583v70.375l78,38.116V495Z" transform="translate(850 2990)"/>
+  </g>
+</svg>

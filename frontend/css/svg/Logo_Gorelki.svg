@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 461 103.86">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4, .cls-5 {
+        fill: #404040;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-3 {
+        font-size: 25px;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-4 {
+        font-size: 30px;
+      }
+
+      .cls-5 {
+        font-size: 21px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0e45ff"/>
+      <stop offset="0.11" stop-color="#174eff"/>
+      <stop offset="0.29" stop-color="#3166ff"/>
+      <stop offset="0.53" stop-color="#5a8dff"/>
+      <stop offset="0.61" stop-color="#6a9cff"/>
+      <stop offset="0.99" stop-color="#1c3376"/>
+    </linearGradient>
+  </defs>
+  <g id="LOGO_OOO_PROMISHLENIE_GORELKI" data-name="LOGO OOO PROMISHLENIE GORELKI" transform="translate(-1129 -19)">
+    <g id="LOGO" transform="translate(-15)">
+      <g id="Logo_PG_1" transform="translate(1107.277 22.564)">
+        <g id="Слой_1" data-name="Слой 1" transform="translate(36.723)">
+          <g id="Logo_PG" transform="translate(0)">
+            <path id="Path_5" data-name="Path 5" class="cls-1" d="M833.081,44.247,770.43,0V100.3l63.3-44.441h50.318V44.247ZM779.533,82.094v-63L825.4,50.147Z" transform="translate(-594.048)"/>
+            <ellipse id="Ellipse_1" data-name="Ellipse 1" class="cls-1" cx="5.071" cy="5.028" rx="5.071" ry="5.028" transform="translate(189.662 55.843)"/>
+            <ellipse id="Ellipse_2" data-name="Ellipse 2" class="cls-1" cx="5.071" cy="5.028" rx="5.071" ry="5.028" transform="translate(189.662 34.717)"/>
+            <path id="Path_6" data-name="Path 6" class="cls-2" d="M205.743,46.945s7.6-62.271-68.75-31.14c0,0,23.169,7.281,0,12.05a216.058,216.058,0,0,1-24.625-.843c-12.345-1.228-30.83,6.933-30.83,6.933s15.89,3.514,15.89,11.108S83.882,56.035,83.882,56.035A72.277,72.277,0,0,1,42.48,47.5S41.467,67.52,75.714,69.781a71.868,71.868,0,0,0,19.435-.44c10.886-1.7,19.372-2.825,19.372-2.825s15.507-1.881,24.373-.187,11.146,10.858,11.146,10.858,2.089,5.9-4.875,4.771a36.571,36.571,0,0,0-12.6.142,57.156,57.156,0,0,0,36.587,15.924C192.191,99.278,195.867,92,195.867,92s8.48-5.148,8.238-19.833c0,0-33.866,7.987-45.743-16.22a.112.112,0,0,1,.036-.147.115.115,0,0,1,.151.02c2.125,2.441,9.888,10.673,16.057,8.314,7.218-2.763,2.532-10.294,2.532-10.294s-4.936-8.033-20.13-8.408c-13.2-.327-25.64-.56-28.671-.615a.161.161,0,0,1-.063-.307c4.737-2.128,35-14.747,57.286-.207,0,0,7.371,3.937,8.226,2.76.8-1.107-6.869-10.678-7.754-11.788a.091.091,0,0,1-.017-.086.092.092,0,0,1,.063-.061c1.224-.363,10.8-2.6,18.829,13.095C204.888,48.22,205.537,50.827,205.743,46.945Z" transform="translate(-42.477 -5.386)"/>
+          </g>
+        </g>
+      </g>
+      <text id="ПРОМЫШЛЕННЫЕ" class="cls-3" transform="translate(1360 46)"><tspan x="0" y="0">ПРОМЫШЛЕННЫЕ</tspan></text>
+      <text id="ГОРЕЛКИ" class="cls-4" transform="translate(1454 81)"><tspan x="0" y="0">ГОРЕЛКИ</tspan></text>
+    </g>
+    <text id="Позвоните_нам:" data-name="Позвоните нам:" class="cls-5" transform="translate(1438 113)"><tspan x="0" y="0">Позвоните нам:</tspan></text>
+  </g>
+</svg>
