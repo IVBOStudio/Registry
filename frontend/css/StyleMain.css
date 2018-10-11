@@ -1,124 +1,97 @@
 body{
     margin: 0;
     background-color: #F6F6F6;
-    padding: 0;
 }
-
 #head{
-    position: relative;
-    display: block;
-    height: auto;
+    top: 0px;
+    position: absolute;
+    height: 301px;
     width: 100%;
     background-color: white;
-    z-index: 10;
 }
-
-#navi {
-    display: flex;
-    margin: 0 auto;
-    width: 90%;
-    height: auto;
-    align-items: center;
-    align-content: center;
-}
-
-#navi:after, #navi:before {
-    display: flex;
-    clear: both;
-    content: "";
-    align-items: center;
-    align-content: center;
-}
-
-.naviItem {
-    display: inline-block;
-    float: left;
-}
-
-#logo {
+#logo{
     background: url(svg/Logo_IBS.svg) no-repeat;
+    float: left;
+    display: inline-block;
+    height: 150px;
+    width: 256px;
+    margin: 23px 0 0 9.8%;
     font-size: 15px;
     font-weight: 300;
     font-family: 'Open Sans', sans-serif;
-    height: 250px;
-    width: 30%;
-    margin-left: 4%;
 }
-
-#logo2 {
+#logo2{
     position: relative;
+    display: inline-block;
+    float: right;
     background: url(svg/Logo_Gorelki.svg) no-repeat;
-    height: 150px;
-    width: 50%;
-    margin-left: 4%;
+    height: 149px;
+    width: 463px;
+    margin: 23px 92px 0 0;
 }
 #logo2nomer{
     position: absolute;
+    right: 0px;
+    bottom: 0px;
     font-size: 18px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
-    height: 100px;
 }
 
-#license {
-    background: url(jpg/License_Trade_IBS.jpg) no-repeat;
-    height: 150px;
-    width: 15%;
-    margin-left: 4%;
-}
-
-#noscroll_bar {
-    background-color: #334A97;
-    width: 100%;
-    height: auto;
-    z-index: 9;
-    position: absolute;
-}
-
-#scroll_bar {
-    display: block;
-    background-color: #334A97;
-    position: fixed;
-    width: 100%;
-    height: 45px;
-}
-
-.buttonsbar {
-    width: auto;
+#license{
     display: inline-block;
     float: right;
+    background: url(jpg/License_Trade_IBS.jpg) no-repeat;
+    width: 180px;
+    height: 177px;
+    margin: 19px 9.6% 0 0;
 }
-
-.buttonnbar {
+#noscroll_bar{
+    position: relative;
+    top: 20px;
     display: inline-block;
+    background-color: #334A97;
+    width: 100%;
     height: 88px;
-    line-height: 88px;
-    vertical-align: middle;
 }
-
-.buttonnbar:hover {
-    height: 88px;
-    background-color: #405EC4;
+#buttonsnbar{
+    margin-left: 20%;
 }
 .buttonnbarText{
-    display: block;
-    width: auto;
-    height: auto;
-    margin: auto 20px;
      font-family: 'Roboto', sans-serif;
      font-weight: 300;
      font-size: 15px;
      color: white;
+     margin-left: 39px;
+     margin-top: 33px;
+    margin-right: 39px;
  }
-
+.buttonnbar{
+    display: inline-block;
+    margin: 0 0 0 0;
+    height: 88px;
+}
+.buttonnbar:hover{
+    margin: 0 0 0 0;
+    height: 88px;
+    background-color: #405EC4;
+}
 #div1{
-    display: block;
+    position: relative;
+    margin-top: 220px;
     background: url(jpg/div1back.jpg) no-repeat;
     background-size: cover;
     width: 100%;
     height: 1039px;
     color: white;
-    z-index: 3;
+}
+#scroll_bar{
+    display: inline-block;
+    background-color: #334A97;
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    height: 45px;
 }
 #barnumber{
     font-family: 'Open Sans', sans-serif;
@@ -134,6 +107,29 @@ body{
     height: 23.46px;
     margin: 11.3px 0 0 148px;
     background: url(svg/logobar.svg) no-repeat;
+}
+.buttonsbar{
+    display: inline-block;
+    margin-left: 20%;
+}
+.buttonbar{
+    display: inline-block;
+    margin: 0 0 0 0;
+    height: 45px;
+}
+.buttonbar:hover{
+    margin: 0 0 0 0;
+    height: 45px;
+    background-color: #405EC4;
+}
+.buttonbarText{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: white;
+    margin-left: 39px;
+    margin-top: 10.1px;
+    margin-right: 39px;
 }
 .textCon{
     font-family: 'Roboto Condensed', sans-serif;
