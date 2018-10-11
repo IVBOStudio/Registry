@@ -58,6 +58,7 @@ body{
     margin-left: 20%;
 }
 .buttonnbarText{
+     user-select: none;
      font-family: 'Roboto', sans-serif;
      font-weight: 300;
      font-size: 15px;
@@ -123,6 +124,7 @@ body{
     background-color: #405EC4;
 }
 .buttonbarText{
+    user-select: none;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 15px;
@@ -290,7 +292,7 @@ body{
 #div5{
     width: 100%;
     height: 1330px;
-    background: url(svg/Background_div5.svg);
+    background: url(svg/Background_div5.svg) no-repeat;
 }
 #div51{
     color: white;
